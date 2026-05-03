@@ -1,0 +1,208 @@
+/* ── About Section ───────────────────────────────────── */
+.about-section {
+  background: #0d0d1a;
+  padding: 6rem 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.about-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ── Section Label ───────────────────────────────────── */
+.section-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7c6fff;
+  background: rgba(124, 111, 255, 0.1);
+  border: 1px solid rgba(124, 111, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 99px;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Grid ────────────────────────────────────────────── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* ── Text side ───────────────────────────────────────── */
+.about-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin: 0 0 1.2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.about-bio {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #888;
+  margin: 0 0 1.8rem;
+  text-align: left;
+}
+
+/* ── Spirit Animal ───────────────────────────────────── */
+.spirit-animal {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.spirit-label {
+  font-size: 0.82rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.spirit-value {
+  font-size: 0.9rem;
+  color: #b0a0ff;
+  font-weight: 600;
+  background: rgba(124, 111, 255, 0.1);
+  padding: 3px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(124, 111, 255, 0.2);
+}
+
+/* ── Tags ────────────────────────────────────────────── */
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.about-tag {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #999;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.about-tag:hover {
+  border-color: rgba(124, 111, 255, 0.4);
+  color: #c4baff;
+}
+
+/* ── Profile Card ────────────────────────────────────── */
+.about-card {
+  display: flex;
+  justify-content: center;
+}
+
+.about-card-inner {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  transition: border-color 0.3s ease;
+}
+
+.about-card-inner:hover {
+  border-color: rgba(124, 111, 255, 0.3);
+}
+
+.about-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7c6fff, #5b4ff5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto 1rem;
+  letter-spacing: 1px;
+}
+
+.about-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin: 0 0 4px;
+}
+
+.about-card-role {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0 0 1.8rem;
+}
+
+/* ── Stats ───────────────────────────────────────────── */
+.about-card-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-num {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #7c6fff;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 4px;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+@media (max-width: 720px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .about-card {
+    order: -1;
+  }
+
+  .about-heading,
+  .about-bio {
+    text-align: center;
+  }
+
+  .about-tags {
+    justify-content: center;
+  }
+
+  .spirit-animal {
+    justify-content: center;
+  }
+}

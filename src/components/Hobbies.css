@@ -1,0 +1,121 @@
+/* ── Hobbies Section ─────────────────────────────────── */
+.hobbies-section {
+  background: #0d0d1a;
+  padding: 6rem 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hobbies-container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* ── Labels ──────────────────────────────────────────── */
+.section-label-hobbies {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7c6fff;
+  background: rgba(124, 111, 255, 0.1);
+  border: 1px solid rgba(124, 111, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 99px;
+  margin-bottom: 1.2rem;
+}
+
+.hobbies-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.hobbies-sub {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 1.2rem;
+  text-align: left;
+}
+
+/* ── Legend ──────────────────────────────────────────── */
+.hobbies-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2rem;
+}
+
+.legend-star {
+  font-size: 0.9rem;
+}
+
+.legend-text {
+  font-size: 0.78rem;
+  color: #555;
+}
+
+/* ── List ────────────────────────────────────────────── */
+.hobbies-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ── Hobby Item ──────────────────────────────────────── */
+.hobby-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.hobby-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* favourite items get a subtle purple tint */
+.hobby-item.hobby-fav {
+  background: rgba(124, 111, 255, 0.06);
+  border-color: rgba(124, 111, 255, 0.18);
+}
+
+.hobby-item.hobby-fav:hover {
+  border-color: rgba(124, 111, 255, 0.35);
+}
+
+/* ── Inner elements ──────────────────────────────────── */
+.hobby-num {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #444;
+  min-width: 26px;
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+.hobby-name {
+  font-size: 0.9rem;
+  color: #ccc;
+  flex: 1;
+}
+
+.hobby-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #a99fff;
+  background: rgba(124, 111, 255, 0.12);
+  border: 1px solid rgba(124, 111, 255, 0.25);
+  padding: 2px 9px;
+  border-radius: 99px;
+}

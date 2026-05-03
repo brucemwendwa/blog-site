@@ -1,0 +1,67 @@
+/* ── Footer ──────────────────────────────────────────── */
+.footer {
+  background: #080810;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 3rem 2rem 2rem;
+}
+
+.footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ── Top row ─────────────────────────────────────────── */
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin: 0 0 4px;
+}
+
+.footer-tagline {
+  font-size: 0.82rem;
+  color: #555;
+  margin: 0;
+}
+
+/* ── Links ───────────────────────────────────────────── */
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-link {
+  font-size: 0.84rem;
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #c4baff;
+}
+
+/* ── Divider ─────────────────────────────────────────── */
+.footer-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 1.6rem;
+}
+
+/* ── Copyright ───────────────────────────────────────── */
+.footer-copy {
+  font-size: 0.78rem;
+  color: #444;
+  text-align: center;
+  margin: 0;
+}

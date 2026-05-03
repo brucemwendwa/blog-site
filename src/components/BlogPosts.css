@@ -1,0 +1,63 @@
+/* ── Blog Posts Section ──────────────────────────────── */
+.posts-section {
+  background: #0a0a12;
+  padding: 6rem 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.posts-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ── Header ──────────────────────────────────────────── */
+.posts-header {
+  margin-bottom: 3rem;
+}
+
+.section-label-posts {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7c6fff;
+  background: rgba(124, 111, 255, 0.1);
+  border: 1px solid rgba(124, 111, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 99px;
+  margin-bottom: 1.2rem;
+}
+
+.posts-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.posts-subheading {
+  font-size: 0.92rem;
+  color: #666;
+  margin: 0;
+  text-align: left;
+}
+
+/* ── Grid ────────────────────────────────────────────── */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem;
+}
+
+@media (max-width: 680px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .posts-heading {
+    font-size: 1.5rem;
+  }
+}
